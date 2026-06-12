@@ -23,6 +23,38 @@ a {
     color: #E5E7EB;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+img.placeholder-hero {
+    width: auto;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 12px 48px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+div.logo {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -44,34 +76,94 @@ a {
     gap: 100px;
 }
 
-div.logo {
+.random-infos {
     display: flex;
-    font-size: 24px;
-    color: #F9FAF8;
+    justify-content: space-around;
+    text-align: center;
+    padding: 48px 0 48px 0;
 }
 
-.header {
-    display: flex;  
-    justify-content: space-between;
-    margin-bottom: 48px;
-}
-
-h1 {
-    font-size: 48px;
+div h2 {
+    font-size: 36px;
     font-weight: 900;
-    color: #F9FAF8;
+    color: #1F2937;
 }
 
-img.placeholder-hero {
-    width: auto;
+.random-content {
+    display: flex;
+    gap: 48px;
+}
+
+.card {
+    width: 200px;
     height: auto;
 }
 
-button {
-    background-color: #3882F6;
+.placehold-card {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 0 48px 0;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    height: auto;
+}
+
+.quote-content .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-creator {
+    text-align: end;
     font-size: 24px;
-    font-weight: 500;
-    padding: 12px 48px;
-    border-radius: 10px;
-    border-style: none;
+    font-weight: 900;
+}
+
+.call-to-action-article {
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 0 48px 0;
+}
+
+.call-to-action-container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 48px;
+    color: #E5E7EB;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+.call-to-action-container h2,
+.call-to-action-container p {
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-action-container button {
+    border: #E5E7EB 3px solid;
+}
+
+.footer, 
+.footer h2 {
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 900;
+    background-color: #1F2937;
+    padding: 24px 0 24px 0;
+    text-align: center;
+    justify-content: center;
 }
